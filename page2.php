@@ -27,13 +27,9 @@ $tableau2 = array(
     <title>Document</title>
 </head>
 <body>
-12 x 5 = <?php echo multiplier(12,5); ?>
-<ol>
-    <?php
-    for($i=0;$i<30;$i++) {
-        ?>
-        <li><?php echo $i;?> Bonjour</li>
-    <?php } ?>
-</ol>
+<?php
+$couleur = "bleu";
+?>
+<p style="color:<?php echo $tableau2[$couleur]; ?>;">Ce texte est écrit en <?php echo $couleur; ?></p>
 </body>
 </html>
