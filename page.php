@@ -11,13 +11,6 @@ include("functions.php");
     <title>Document</title>
 </head>
 <body>
-12 x 5 = <?php echo multiplier(12,5); ?>
-<ol>
-<?php
-for($i=0;$i<30;$i++) {
-?>
-    <li><?php echo $i;?> Bonjour</li>
-<?php } ?>
-</ol>
+<p>La factorielle de 5 vaut : <?php echo factorielle(5); ?></p>
 </body>
 </html>

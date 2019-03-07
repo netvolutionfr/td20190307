@@ -24,3 +24,17 @@ function multiplier($a, $b) {
 
     return $resultat;
 }
+
+/**
+ * Renvoie la factorielle d'un nombre entier
+ *
+ * @param $n int nombre dont on cherche la factorielle
+ * @return int
+ */
+function factorielle($n) {
+    $produit = 1;
+    for($i=1 ; $i <= $n ; $i++) {
+        $produit *= $i;
+    }
+    return $produit;
+}
